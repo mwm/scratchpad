@@ -1,3 +1,3 @@
 module Application where
 
-main = putStrLn "Hello?"
+main = putStrLn "Hello again!"
