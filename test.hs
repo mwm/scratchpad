@@ -1,3 +1,4 @@
+#!/usr/bin/env runghc
 -- Solve a linear equation
 
 import Prelude hiding (putStrLn)
