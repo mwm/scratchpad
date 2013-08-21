@@ -1,1 +1,1 @@
-Just a scratchpad for testing.
+Test package
