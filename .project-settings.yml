@@ -1,9 +1,10 @@
-extensions: {}
-version: 1
 module-template: ! 'module MODULE_NAME where
 
 '
+extensions: {}
+environment: null
 modules:
   Main(src/Main.hs):
-    target-type: console
     filename: src/Main.hs
+version: 1
+ghc-args: []
