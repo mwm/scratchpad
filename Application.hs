@@ -1,3 +1,4 @@
 module Application where
 
-foobar = "this is some code."
+foobar = do
+	putStrLn "this is some code."
