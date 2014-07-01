@@ -2,4 +2,4 @@ module Echo where
 
 import System.Environment
 
-main = getArgs >>= print
+main = getArgs >>= mapM putStrLn >> return ()
