@@ -1,3 +1,5 @@
 module Main where
 
-main = putStrLn "Yo"
+import System.Environment
+
+main = getEnv "Message" >>= putStrLn
